@@ -39,6 +39,7 @@
 #include "utility/smc.h"
 #ifdef KINETISK
 #include "utility/rtc.h"
+#include "utility/kinetis_ext.h"
 #endif
 #include "utility/cpu.h"
 #include "utility/tsi.h"

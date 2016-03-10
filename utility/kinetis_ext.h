@@ -846,31 +846,31 @@ define I2S_RCR2_DIV_MASK                        0xFFu
  */
 
 /* SOPT1 Bit Fields */
-/*
+
 #define SIM_SOPT1_RAMSIZE_MASK                   0xF000u
 #define SIM_SOPT1_RAMSIZE_SHIFT                  12
 #define SIM_SOPT1_RAMSIZE(x)                     (((uint32_t)(((uint32_t)(x))<<SIM_SOPT1_RAMSIZE_SHIFT))&SIM_SOPT1_RAMSIZE_MASK)
 #define SIM_SOPT1_OSC32KSEL_MASK                 0xC0000u
 #define SIM_SOPT1_OSC32KSEL_SHIFT                18
 #define SIM_SOPT1_OSC32KSEL(x)                   (((uint32_t)(((uint32_t)(x))<<SIM_SOPT1_OSC32KSEL_SHIFT))&SIM_SOPT1_OSC32KSEL_MASK)
- */
-/*
- #define SIM_SOPT1_USBVSTBY_MASK                  0x20000000u
+
+
+#define SIM_SOPT1_USBVSTBY_MASK                  0x20000000u
 #define SIM_SOPT1_USBVSTBY_SHIFT                 29
 #define SIM_SOPT1_USBSSTBY_MASK                  0x40000000u
 #define SIM_SOPT1_USBSSTBY_SHIFT                 30
 #define SIM_SOPT1_USBREGEN_MASK                  0x80000000u
 #define SIM_SOPT1_USBREGEN_SHIFT                 31
-*/
+
 /* SOPT1CFG Bit Fields */
-/*
- #define SIM_SOPT1CFG_URWE_MASK                   0x1000000u
+
+#define SIM_SOPT1CFG_URWE_MASK                   0x1000000u
 #define SIM_SOPT1CFG_URWE_SHIFT                  24
 #define SIM_SOPT1CFG_UVSWE_MASK                  0x2000000u
 #define SIM_SOPT1CFG_UVSWE_SHIFT                 25
 #define SIM_SOPT1CFG_USSWE_MASK                  0x4000000u
 #define SIM_SOPT1CFG_USSWE_SHIFT                 26
-*/
+
 
 /* ----------------------------------------------------------------------------
  -- RCM Register Masks
